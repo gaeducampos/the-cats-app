@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		4B580B4D2A200A6F00A8BB3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B580B4C2A200A6F00A8BB3F /* AppDelegate.swift */; };
 		4B580B4F2A200A6F00A8BB3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B580B4E2A200A6F00A8BB3F /* SceneDelegate.swift */; };
-		4B580B512A200A6F00A8BB3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B580B502A200A6F00A8BB3F /* ViewController.swift */; };
-		4B580B542A200A6F00A8BB3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B580B522A200A6F00A8BB3F /* Main.storyboard */; };
+		4B580B512A200A6F00A8BB3F /* CatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B580B502A200A6F00A8BB3F /* CatViewController.swift */; };
 		4B580B562A200A7100A8BB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B580B552A200A7100A8BB3F /* Assets.xcassets */; };
 		4B580B592A200A7100A8BB3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B580B572A200A7100A8BB3F /* LaunchScreen.storyboard */; };
+		4B580B622A200B2300A8BB3F /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B580B612A200B2300A8BB3F /* NetworkProvider.swift */; };
+		4B580B652A200B4400A8BB3F /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B580B642A200B4400A8BB3F /* Publisher.swift */; };
+		4B580B692A200B7800A8BB3F /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B580B682A200B7800A8BB3F /* CatViewModel.swift */; };
+		4B580B6C2A200B9D00A8BB3F /* APICats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B580B6B2A200B9D00A8BB3F /* APICats.swift */; };
+		4B580B6F2A200BC200A8BB3F /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B580B6E2A200BC200A8BB3F /* Cat.swift */; };
+		4B580B712A200BD200A8BB3F /* CatImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B580B702A200BD200A8BB3F /* CatImage.swift */; };
+		4B580B742A200C0100A8BB3F /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B580B732A200C0100A8BB3F /* CatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B580B492A200A6F00A8BB3F /* Cat-APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat-APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B580B4C2A200A6F00A8BB3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B580B4E2A200A6F00A8BB3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B580B502A200A6F00A8BB3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B580B532A200A6F00A8BB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B580B502A200A6F00A8BB3F /* CatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewController.swift; sourceTree = "<group>"; };
 		4B580B552A200A7100A8BB3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B580B582A200A7100A8BB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B580B5A2A200A7100A8BB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B580B612A200B2300A8BB3F /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		4B580B642A200B4400A8BB3F /* Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
+		4B580B682A200B7800A8BB3F /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
+		4B580B6B2A200B9D00A8BB3F /* APICats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICats.swift; sourceTree = "<group>"; };
+		4B580B6E2A200BC200A8BB3F /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		4B580B702A200BD200A8BB3F /* CatImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImage.swift; sourceTree = "<group>"; };
+		4B580B732A200C0100A8BB3F /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,77 @@
 		4B580B4B2A200A6F00A8BB3F /* Cat-APP */ = {
 			isa = PBXGroup;
 			children = (
+				4B580B6D2A200BAD00A8BB3F /* Model */,
+				4B580B632A200B3400A8BB3F /* Extensions */,
+				4B580B602A200B0E00A8BB3F /* Network */,
+				4B580B662A200B5000A8BB3F /* ViewController */,
+				4B580B672A200B5E00A8BB3F /* ViewModel */,
+				4B580B6A2A200B8C00A8BB3F /* Data */,
+				4B580B722A200BF200A8BB3F /* View */,
 				4B580B4C2A200A6F00A8BB3F /* AppDelegate.swift */,
 				4B580B4E2A200A6F00A8BB3F /* SceneDelegate.swift */,
-				4B580B502A200A6F00A8BB3F /* ViewController.swift */,
-				4B580B522A200A6F00A8BB3F /* Main.storyboard */,
 				4B580B552A200A7100A8BB3F /* Assets.xcassets */,
-				4B580B572A200A7100A8BB3F /* LaunchScreen.storyboard */,
 				4B580B5A2A200A7100A8BB3F /* Info.plist */,
+				4B580B572A200A7100A8BB3F /* LaunchScreen.storyboard */,
 			);
 			path = "Cat-APP";
+			sourceTree = "<group>";
+		};
+		4B580B602A200B0E00A8BB3F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4B580B612A200B2300A8BB3F /* NetworkProvider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4B580B632A200B3400A8BB3F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4B580B642A200B4400A8BB3F /* Publisher.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4B580B662A200B5000A8BB3F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B580B502A200A6F00A8BB3F /* CatViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4B580B672A200B5E00A8BB3F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B580B682A200B7800A8BB3F /* CatViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4B580B6A2A200B8C00A8BB3F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4B580B6B2A200B9D00A8BB3F /* APICats.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4B580B6D2A200BAD00A8BB3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B580B6E2A200BC200A8BB3F /* Cat.swift */,
+				4B580B702A200BD200A8BB3F /* CatImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B580B722A200BF200A8BB3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B580B732A200C0100A8BB3F /* CatView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +201,6 @@
 			files = (
 				4B580B592A200A7100A8BB3F /* LaunchScreen.storyboard in Resources */,
 				4B580B562A200A7100A8BB3F /* Assets.xcassets in Resources */,
-				4B580B542A200A6F00A8BB3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +211,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B580B512A200A6F00A8BB3F /* ViewController.swift in Sources */,
+				4B580B512A200A6F00A8BB3F /* CatViewController.swift in Sources */,
+				4B580B692A200B7800A8BB3F /* CatViewModel.swift in Sources */,
+				4B580B622A200B2300A8BB3F /* NetworkProvider.swift in Sources */,
+				4B580B6C2A200B9D00A8BB3F /* APICats.swift in Sources */,
+				4B580B712A200BD200A8BB3F /* CatImage.swift in Sources */,
+				4B580B6F2A200BC200A8BB3F /* Cat.swift in Sources */,
 				4B580B4D2A200A6F00A8BB3F /* AppDelegate.swift in Sources */,
 				4B580B4F2A200A6F00A8BB3F /* SceneDelegate.swift in Sources */,
+				4B580B652A200B4400A8BB3F /* Publisher.swift in Sources */,
+				4B580B742A200C0100A8BB3F /* CatView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4B580B522A200A6F00A8BB3F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B580B532A200A6F00A8BB3F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B580B572A200A7100A8BB3F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +363,6 @@
 				INFOPLIST_FILE = "Cat-APP/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +389,6 @@
 				INFOPLIST_FILE = "Cat-APP/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

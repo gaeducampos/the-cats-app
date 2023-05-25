@@ -8,13 +8,35 @@
 import SwiftUI
 
 struct CatView: View {
+    let viewModel: CatViewModel
+    
+    init(viewModel: CatViewModel) {
+        self.viewModel = viewModel
+    }
+    
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("CatBreeds")
+            ForEach(viewModel.cats) { cat in
+                Text(cat.name)
+                AsyncImage(url: URL(string: viewModel.getCatImage(for: cat.reference_image_id)), scale: 2)
+                    .frame(maxWidth: 250, maxHeight: 250)
+                
+                HStack {
+                    Text("Origen: \(cat.origin)")
+                    Text("Inteligencia  \(cat.intelligence)")
+                }
+                
+            }
+        }
     }
 }
 
+
 struct CatView_Previews: PreviewProvider {
     static var previews: some View {
-        CatView()
+        CatView(viewModel: .init(apiCats: .init(networkPrivider: .init())))
     }
 }
